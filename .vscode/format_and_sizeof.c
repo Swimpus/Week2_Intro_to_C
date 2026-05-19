@@ -38,9 +38,10 @@ int main (void){
     printf("Credits:%lf, Size:%zu bytes\n",credits,sizeof(credits)); // The variables you summon should be in the
                                                                // Same order they appear in your print.
     printf("Character:%c, Size:%zu bytes \n",ch,sizeof(ch));
-
     // Note how char are smaller in size (1 byte)
     // Int and Float are about the same (4 bytes)
     // Doubles are the largest! (8 bytes)
+
+    
     return 0;
 }
